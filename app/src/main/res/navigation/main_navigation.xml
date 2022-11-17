@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainDashboardFragment">
+
+
+    <fragment
+        android:id="@+id/mainDashboardFragment"
+        android:name="com.example.blooddonor.dashboard.MainDashboardFragment"
+        android:label="fragment_main_dashboard"
+        tools:layout="@layout/fragment_main_dashboard" >
+        <action
+            android:id="@+id/action_mainDashboardFragment_to_searchDonorFragment"
+            app:destination="@id/searchDonorFragment" />
+        <action
+            android:id="@+id/action_mainDashboardFragment_to_createBloodRequestFragment"
+            app:destination="@id/createBloodRequestFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchDonorFragment"
+        android:name="com.example.blooddonor.dashboard.SearchDonorFragment"
+        android:label="fragment_search_donor"
+        tools:layout="@layout/fragment_search_donor" >
+        <action
+            android:id="@+id/action_searchDonorFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createBloodRequestFragment"
+        android:name="com.example.blooddonor.dashboard.CreateBloodRequestFragment"
+        android:label="fragment_create_blood_request"
+        tools:layout="@layout/fragment_create_blood_request" >
+        <action
+            android:id="@+id/action_createBloodRequestFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+        <action
+            android:id="@+id/action_createBloodRequestFragment_to_bloodRequestPopupFragment"
+            app:destination="@id/bloodRequestPopupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seekerFragment"
+        android:name="com.example.blooddonor.dashboard.SeekerFragment"
+        android:label="fragment_seeker"
+        tools:layout="@layout/fragment_seeker" >
+        <action
+            android:id="@+id/action_seekerFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.blooddonor.dashboard.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.blooddonor.dashboard.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bloodRequestPopupFragment"
+        android:name="com.example.blooddonor.dashboard.BloodRequestPopupFragment"
+        android:label="fragment_blood_request_popup"
+        tools:layout="@layout/fragment_blood_request_popup" >
+        <action
+            android:id="@+id/action_bloodRequestPopupFragment_to_mainDashboardFragment"
+            app:destination="@id/mainDashboardFragment" />
+    </fragment>
+
+
+</navigation>

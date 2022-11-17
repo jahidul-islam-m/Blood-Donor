@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Blood Donor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip_now"> <u>Skip now</u> </string>
+
+    <string-array name="District">
+        <item>Cumilla</item>
+        <item>Dhaka</item>
+        <item>Chitagong</item>
+        <item>Chadpur</item>
+        <item>Noakhali</item>
+    </string-array>
+
+
+    <string-array name="Area">
+        <item>Cumilla</item>
+        <item>Dhaka</item>
+        <item>Chitagong</item>
+        <item>Chadpur</item>
+        <item>Noakhali</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string-array name="Religion">
+        <item>Muslim</item>
+        <item>Hindu</item>
+        <item>Kristiyan</item>
+    </string-array>
+
+
+    <string-array name="Hospital">
+        <item>Cumilla medical hospital</item>
+        <item>Dhaka medical hospital</item>
+        <item>Chitagong medical hospital</item>
+        <item>Chadpur medical hospital</item>
+        <item>Noakhali medical hospital</item>
+    </string-array>
+
+    <string-array name="BloodGroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+</resources>

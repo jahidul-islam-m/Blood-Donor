@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard.BloodRequestPopupFragment">
+
+    <LinearLayout
+         android:layout_width="match_parent"
+          android:gravity="center"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/signinbg2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_group__1_"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blood is successfully requested"
+                android:textColor="@color/white"
+                android:padding="@dimen/_30sdp"
+                android:textSize="@dimen/_20sdp"
+                android:textAlignment="center"
+                />
+
+            <ImageView
+                android:id="@+id/enterBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_group_277"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

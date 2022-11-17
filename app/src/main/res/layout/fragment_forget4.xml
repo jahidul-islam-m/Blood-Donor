@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".forgetPass.Forget4Fragment">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_vector__17_"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have successfully reset your password"
+        android:fontFamily="@font/poppins_400"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_20sdp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gotoDashboardBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Go To Dashboard"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/signinbg2"
+        />
+
+</LinearLayout>
